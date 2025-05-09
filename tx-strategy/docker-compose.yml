@@ -1,0 +1,16 @@
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: tx-strategy_webapp_1
+      APP_PORT: 4410
+    
+  webapp:
+    image: nguyentuan1005/tx-strategy:latest
+    pull_policy: always
+    init: true
+    ports:
+      - 4410:4400
+    environment:
+      - ASPNETCORE_URLS=http://+:4400

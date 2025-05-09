@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: tx-strategy
+name: Strategy
+tagline: Strategy
+icon: https://i.imgur.com/nT78lvV.png
+category: Bitcoin
+version: "1"
+port: 4210
+description: >-
+  This app provides an intuitive and automated solution for dollar cost averaging, enabling users to buy or sell Bitcoin efficiently and strategically. 
+  It minimizes emotional decision-making, streamlines the stacking process, and helps users achieve their financial goals with ease and confidence.
+developer: Tx
+website: https://github.com/tuangh/tx-strategy
+submitter: Tx
+submission: https://github.com/tuangh/tx-strategy
+repo: https://github.com/tuangh/tx-strategy
+support: https://github.com/tuangh/tx-strategy/issues
+gallery:
+  - https://i.imgur.com/RmLHngm.png
+  - https://i.imgur.com/bJ7X2U7.png
+  - https://i.imgur.com/K0vzBgQ.png
+releaseNotes: >-
+  - Initial release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
