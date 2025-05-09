@@ -2,7 +2,7 @@ manifestVersion: 1
 id: tx-strategy
 name: Strategy
 tagline: Strategy
-icon: https://i.imgur.com/nT78lvV.png
+icon: https://i.imgur.com/Mk60Wu2.png
 category: Bitcoin
 version: "1"
 port: 2028
