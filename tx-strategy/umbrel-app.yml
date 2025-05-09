@@ -4,7 +4,7 @@ name: Strategy
 tagline: Strategy
 icon: https://i.imgur.com/Mk60Wu2.png
 category: Bitcoin
-version: "0.1.0"
+version: "0.1.1"
 port: 2028
 description: >-
   This app provides an intuitive and automated solution for dollar cost averaging, enabling users to buy or sell Bitcoin efficiently and strategically. 
