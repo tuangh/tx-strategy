@@ -13,4 +13,4 @@ services:
     ports:
       - 2028:2028
     environment:
-      - ASPNETCORE_URLS=http://+:4400
+      - ASPNETCORE_URLS=http://+:2028
