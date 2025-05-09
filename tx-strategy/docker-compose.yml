@@ -4,9 +4,11 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: tx-strategy_webapp_1
-      APP_PORT: 2028
+      APP_PORT: 2024
     
   webapp:
     image: nguyentuan1005/tx-strategy:latest
     pull_policy: always
     init: true
+    ports:
+      - 2024:2024
