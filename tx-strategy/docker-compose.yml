@@ -12,3 +12,6 @@ services:
     init: true
     ports:
       - 2024:2024
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:2024
