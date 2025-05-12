@@ -8,6 +8,8 @@ services:
     
   webapp:
     image: nguyentuan1005/tx-strategy:latest
+    user: "1000:1000"
+    restart: on-failure
     pull_policy: always
     init: true
     ports:
@@ -15,3 +17,5 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_URLS=http://+:2024
+    volumes:
+      - ${APP_DATA_DIR}/Data:/app/Data
