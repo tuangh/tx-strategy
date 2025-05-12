@@ -9,6 +9,8 @@ port: 2028
 description: >-
   This app provides an intuitive and automated solution for dollar cost averaging, enabling users to buy or sell Bitcoin efficiently and strategically. 
   It minimizes emotional decision-making, streamlines the stacking process, and helps users achieve their financial goals with ease and confidence.
+
+  To have Binance Testnet Key, create an account at: https://testnet.binance.vision/
 developer: Tx
 website: https://github.com/tuangh/tx-strategy
 submitter: Tx
